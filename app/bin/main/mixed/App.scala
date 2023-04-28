@@ -3,6 +3,8 @@
  */
 package mixed
 
+import clojure.java.api.Clojure
+
 import scala.language.postfixOps
 
 class ScalaSome {
@@ -21,6 +23,8 @@ object App {
 
     val javaSome = new JavaSome()
     println("ScalaSome: javaSome: " + javaSome.thing)
+
+    println("Clojure: " + Clojure.`var`("clojure.core", "+").invoke(1,2))
   }
 
   def greeting(): String = "Hello, world!"
