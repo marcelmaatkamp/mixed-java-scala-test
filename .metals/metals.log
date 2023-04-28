@@ -208,3 +208,6 @@ i
 2023.04.27 20:52:37 INFO  time: code lens generation in 1.49s[0m
 2023.04.27 20:52:38 INFO  time: code lens generation in 1.54s[0m
 2023.04.28 08:45:11 INFO  time: code lens generation in 1.29s[0m
+2023.04.28 09:21:55 INFO  Shutting down server[0m
+2023.04.28 09:21:55 INFO  shutting down Metals[0m
+2023.04.28 09:21:57 INFO  Exiting server[0m
