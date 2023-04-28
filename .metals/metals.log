@@ -1,0 +1,210 @@
+2023.04.27 19:32:16 INFO  Started: Metals version 0.11.12 in workspace '/Users/marcel/projects/mixed' for client Visual Studio Code 1.77.3.[0m
+apr. 27, 2023 7:32:16 P.M. org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+apr. 27, 2023 7:32:16 P.M. org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+apr. 27, 2023 7:32:16 P.M. org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+apr. 27, 2023 7:32:16 P.M. org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/marcel/projects/mixed/.metals/metals (H2 2.1)
+apr. 27, 2023 7:32:17 P.M. org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+apr. 27, 2023 7:32:17 P.M. org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.027s)
+apr. 27, 2023 7:32:17 P.M. org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+apr. 27, 2023 7:32:17 P.M. org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+apr. 27, 2023 7:32:17 P.M. org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+apr. 27, 2023 7:32:17 P.M. org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+apr. 27, 2023 7:32:17 P.M. org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+apr. 27, 2023 7:32:17 P.M. org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+apr. 27, 2023 7:32:17 P.M. org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.086s)
+2023.04.27 19:32:17 INFO  time: initialize in 0.82s[0m
+2023.04.27 19:32:21 WARN  Build server is not auto-connectable.[0m
+2023.04.27 19:32:21 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/scala/mixed/App.scala[0m
+2023.04.27 19:32:21 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java[0m
+apr. 27, 2023 7:32:21 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2023.04.27 19:32:30 INFO  no build target found for /Users/marcel/projects/mixed/app/src/main/scala/mixed/App.scala. Using presentation compiler with project's scala-library version: 3.2.2[0m
+2023.04.27 19:34:07 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java[0m
+2023.04.27 19:34:10 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java[0m
+2023.04.27 19:34:10 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java[0m
+2023.04.27 19:34:10 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java[0m
+2023.04.27 19:34:21 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java[0m
+2023.04.27 19:34:22 WARN  Running javac-semanticdb failed for file:///Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java. Output:
+/Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java:3: error: <identifier> expected
+import 
+      ^
+1 error[0m
+2023.04.27 19:34:28 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java[0m
+2023.04.27 19:34:28 WARN  Running javac-semanticdb failed for file:///Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java. Output:
+/Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java:3: error: ';' expected
+import mixed.Sca
+                ^
+1 error[0m
+2023.04.27 19:34:29 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java[0m
+2023.04.27 19:42:46 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/scala/mixed/App.scala[0m
+2023.04.27 19:42:49 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/scala/mixed/App.scala[0m
+2023.04.27 19:42:51 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/scala/mixed/App.scala[0m
+2023.04.27 19:43:16 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java[0m
+2023.04.27 19:43:21 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java[0m
+2023.04.27 19:43:44 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/scala/mixed/App.scala[0m
+2023.04.27 19:43:48 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/scala/mixed/App.scala[0m
+2023.04.27 19:43:51 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/scala/mixed/App.scala[0m
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.3/scalafmt-core_2.13-3.7.3.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.3/scalafmt-core_2.13-3.7.3.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.7.6/scalameta_2.13-4.7.6.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.3/scalafmt-config_2.13-3.7.3.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.3/scalafmt-sysops_2.13-3.7.3.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.7.6/scalameta_2.13-4.7.6.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.3/scalafmt-config_2.13-3.7.3.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.3/scalafmt-sysops_2.13-3.7.3.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.7.6/parsers_2.13-4.7.6.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.11.1/metaconfig-typesafe-config_2.13-0.11.1.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.7.6/parsers_2.13-4.7.6.pom
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.11.1/metaconfig-typesafe-config_2.13-0.11.1.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.7.6/trees_2.13-4.7.6.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.5.0/scala-collection-compat_2.13-2.5.0.pom
+Downloading https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.7.6/trees_2.13-4.7.6.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.5.0/scala-collection-compat_2.13-2.5.0.pom
+Downloaded https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.7.6/common_2.13-4.7.6.pom
+Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.pom
+Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.7.6/common_2.13-4.7.6.pom
+Downloading https://repo1.maven.org/maven2/com/lihaoyi/geny_2.13/0.6.5/geny_2.13-0.6.5.pom
+Downloaded https://repo1.maven.org/maven2/com/lihaoyi/geny_2.13/0.6.5/geny_2.13-0.6.5.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.3/scalafmt-core_2.13-3.7.3.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.7.6/common_2.13-4.7.6.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.3/scalafmt-config_2.13-3.7.3.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.7.6/parsers_2.13-4.7.6.jar
+Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.5.0/scala-collection-compat_2.13-2.5.0.jar
+Downloading https://repo1.maven.org/maven2/com/lihaoyi/geny_2.13/0.6.5/geny_2.13-0.6.5.jar
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.5.0/scala-collection-compat_2.13-2.5.0.jar
+Downloading https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.jar
+Downloaded https://repo1.maven.org/maven2/com/lihaoyi/geny_2.13/0.6.5/geny_2.13-0.6.5.jar
+Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.3/scalafmt-config_2.13-3.7.3.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.3/scalafmt-sysops_2.13-3.7.3.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.3/scalafmt-sysops_2.13-3.7.3.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.7.6/scalameta_2.13-4.7.6.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.3/scalafmt-core_2.13-3.7.3.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.7.6/trees_2.13-4.7.6.jar
+Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.11.1/metaconfig-typesafe-config_2.13-0.11.1.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.7.6/parsers_2.13-4.7.6.jar
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.11.1/metaconfig-typesafe-config_2.13-0.11.1.jar
+Downloaded https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.7.6/common_2.13-4.7.6.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.7.6/trees_2.13-4.7.6.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.7.6/scalameta_2.13-4.7.6.jar
+2023.04.27 19:43:57 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/scala/mixed/App.scala[0m
+2023.04.27 19:44:20 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/scala/mixed/App.scala[0m
+2023.04.27 19:44:48 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java[0m
+2023.04.27 19:45:22 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java[0m
+2023.04.27 19:45:22 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java[0m
+2023.04.27 19:45:35 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java[0m
+2023.04.27 19:45:50 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/scala/mixed/App.scala[0m
+2023.04.27 19:45:55 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/scala/mixed/App.scala[0m
+2023.04.27 19:45:58 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/scala/mixed/App.scala[0m
+2023.04.27 19:46:00 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/scala/mixed/App.scala[0m
+2023.04.27 19:46:04 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/scala/mixed/App.scala[0m
+2023.04.27 19:46:06 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/scala/mixed/App.scala[0m
+2023.04.27 19:46:06 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/scala/mixed/App.scala[0m
+2023.04.27 19:46:24 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java[0m
+2023.04.27 19:46:26 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java[0m
+2023.04.27 19:46:42 WARN  Using indexes to guess the definition of ScalaSome[0m
+2023.04.27 19:46:42 WARN  Using indexes to guess the definition of ScalaSome[0m
+2023.04.27 19:46:44 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java[0m
+2023.04.27 19:46:46 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java[0m
+2023.04.27 19:48:06 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java[0m
+2023.04.27 19:48:08 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java[0m
+2023.04.27 19:48:18 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java[0m
+2023.04.27 19:48:19 WARN  Running javac-semanticdb failed for file:///Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java. Output:
+/Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java:10: error: <identifier> expected
+        var scalaSome = new mixed.;
+                                  ^
+1 error[0m
+2023.04.27 19:48:21 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java[0m
+2023.04.27 19:48:29 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java[0m
+2023.04.27 19:48:29 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java[0m
+apr. 27, 2023 7:49:19 P.M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+apr. 27, 2023 7:50:47 P.M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.04.27 19:50:55 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java[0m
+2023.04.27 19:55:16 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/scala/mixed/App.scala[0m
+2023.04.27 19:55:28 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/scala/mixed/App.scala[0m
+2023.04.27 19:55:28 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/scala/mixed/App.scala[0m
+2023.04.27 19:56:07 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/scala/mixed/App.scala[0m
+2023.04.27 19:56:25 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java[0m
+2023.04.27 19:56:39 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java[0m
+2023.04.27 19:56:40 WARN  Running javac-semanticdb failed for file:///Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java. Output:
+/Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java:4: error: illegal '.'
+import mixed..App;
+             ^
+1 error[0m
+2023.04.27 19:56:42 WARN  no build target for: /Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java[0m
+2023.04.27 20:20:14 INFO  time: code lens generation in 2.26s[0m
+2023.04.27 20:21:16 INFO  time: code lens generation in 1.21s[0m
+2023.04.27 20:21:18 WARN  Running javac-semanticdb failed for file:///Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java. Output:
+/Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java:13: error: not a statement
+        A
+        ^
+/Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java:13: error: ';' expected
+        A
+         ^
+2 errors[0m
+2023.04.27 20:21:28 WARN  Running javac-semanticdb failed for file:///Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java. Output:
+/Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java:13: error: not a statement
+        App
+        ^
+/Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java:13: error: ';' expected
+        App
+           ^
+2 errors[0m
+2023.04.27 20:25:27 WARN  Running javac-semanticdb failed for file:///Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java. Output:
+/Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java:2: error: class, interface, enum, or record expected
+i
+^
+1 error[0m
+2023.04.27 20:26:14 INFO  time: code lens generation in 1.05s[0m
+2023.04.27 20:26:22 INFO  time: code lens generation in 1.05s[0m
+2023.04.27 20:26:34 WARN  Running javac-semanticdb failed for file:///Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java. Output:
+/Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java:11: error: not a statement
+        Sy
+        ^
+/Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java:11: error: ';' expected
+        Sy
+          ^
+2 errors[0m
+2023.04.27 20:26:39 INFO  time: code lens generation in 1.04s[0m
+2023.04.27 20:26:40 WARN  Running javac-semanticdb failed for file:///Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java. Output:
+/Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java:11: error: <identifier> expected
+        System.out.println(scalaSome.);
+                                     ^
+1 error[0m
+2023.04.27 20:29:50 WARN  Running javac-semanticdb failed for file:///Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java. Output:
+/Users/marcel/projects/mixed/app/src/main/java/mixed/JavaSome.java:18: error: <identifier> expected
+    p
+     ^
+1 error[0m
+2023.04.27 20:29:50 INFO  time: code lens generation in 1.15s[0m
+2023.04.27 20:30:00 INFO  time: code lens generation in 1.94s[0m
+2023.04.27 20:30:01 INFO  time: code lens generation in 2.24s[0m
+2023.04.27 20:30:30 INFO  time: code lens generation in 1.16s[0m
+2023.04.27 20:30:37 INFO  time: code lens generation in 1.07s[0m
+2023.04.27 20:30:39 INFO  time: code lens generation in 1.08s[0m
+2023.04.27 20:44:35 INFO  time: code lens generation in 1.31s[0m
+2023.04.27 20:44:37 INFO  time: code lens generation in 1.12s[0m
+2023.04.27 20:52:31 INFO  time: code lens generation in 1.15s[0m
+2023.04.27 20:52:37 INFO  time: code lens generation in 1.49s[0m
+2023.04.27 20:52:38 INFO  time: code lens generation in 1.54s[0m
+2023.04.28 08:45:11 INFO  time: code lens generation in 1.29s[0m
