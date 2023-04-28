@@ -1,0 +1,1093 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "app-test",
+        "directory": "/Users/marcel/projects/mixed/app",
+        "workspaceDir": "/Users/marcel/projects/mixed",
+        "sources": [
+            "/Users/marcel/projects/mixed/app/src/test/java",
+            "/Users/marcel/projects/mixed/app/src/test/scala",
+            "/Users/marcel/projects/mixed/app/src/test/clojure"
+        ],
+        "dependencies": [
+            "app"
+        ],
+        "classpath": [
+            "/Users/marcel/projects/mixed/.bloop/app/build/classes",
+            "/Users/marcel/projects/mixed/app/src/main/resources",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest_3/3.2.15/dfaadda82c4c862bf164bd114803fd163cf3b73e/scalatest_3-3.2.15.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatestplus/junit-4-13_3/3.2.15.0/5d0f8a741bdf2e8c6974cc3d139311e8d6c9f838/junit-4-13_3-3.2.15.0.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatestplus/easymock-5-1_3/3.2.15.0/55a914672c969c69f753e814cb8d57318b58d9cf/easymock-5-1_3-3.2.15.0.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-featurespec_3/3.2.15/4bc75e68e2868b4c479b560f5f378cb48ab75b76/scalatest-featurespec_3-3.2.15.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-flatspec_3/3.2.15/7b55612375f7510baa3dc4ae6299bed1ed3a7ece/scalatest-flatspec_3-3.2.15.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-freespec_3/3.2.15/c39544f2bdef51499536da16d26bf4c25b241f1e/scalatest-freespec_3-3.2.15.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-funsuite_3/3.2.15/83bdcb74a218416eb5b62199b89c70ca08284cd6/scalatest-funsuite_3-3.2.15.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-funspec_3/3.2.15/a1bca099b89bbff1b5c7a7c07abd1a1ed336d742/scalatest-funspec_3-3.2.15.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-propspec_3/3.2.15/4c1ee6a8e2ac5c6ac483df4620163d446b555ecf/scalatest-propspec_3-3.2.15.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-refspec_3/3.2.15/581f787e923c164b9e033fa2ae0d5bde635521f2/scalatest-refspec_3-3.2.15.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-wordspec_3/3.2.15/26cf2ae5b9b406653bfbeccfd01d70269b14db67/scalatest-wordspec_3-3.2.15.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-diagrams_3/3.2.15/ef1062b97650d509681c797aff81689cd97f9f0c/scalatest-diagrams_3-3.2.15.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-shouldmatchers_3/3.2.15/3e4bff4732b017d05586eafb7845f85f064200b7/scalatest-shouldmatchers_3-3.2.15.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-mustmatchers_3/3.2.15/1dfa3d2b50bc3cff3399eaa080210f0115d7d480/scalatest-mustmatchers_3-3.2.15.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-matchers-core_3/3.2.15/b7026d85d9250a696eb8cbac240a5b4b31a6931c/scalatest-matchers-core_3-3.2.15.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-core_3/3.2.15/f41b6ebe4e91c5b3f2706b85bb1fe3af6e1dcba8/scalatest-core_3-3.2.15.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_3/2.1.0/8825dfc740fdf5b0b3900ee7b62cdbfea3483b8/scala-xml_3-2.1.0.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalactic/scalactic_3/3.2.15/fc1037a5bc0d50329134cc52212eb651fa7e6bac/scalactic_3-3.2.15.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala3-library_3/3.2.2/66cd4d151f70d4545b358d25b5a8377e68a4ded5/scala3-library_3-3.2.2.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.2/8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5/commons-collections-3.2.2.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.clojure/clojure/1.11.1/2896bc72c90da8125026c0e61df0470a084f9ec3/clojure-1.11.1.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/us.bpsm/edn-java/0.7.1/cfb5d793683fa97a1bdccb6e5d8c5b7a4495fa2a/edn-java-0.7.1.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-text/1.10.0/3363381aef8cef2dbc1023b3e3a9433b08b64e01/commons-text-1.10.0.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/31.1-jre/60458f877d055d0c9114d9e1a2efb737b4bc282c/guava-31.1-jre.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.9.0/b727889107fc28c7460b21d1083212f8ce7602c6/junit-platform-commons-1.9.0.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.9.0/a44f7eba3ea214f6ec87ad9fccd3b2ac4681a4/junit-jupiter-api-5.9.0.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/junit/junit/4.13.2/8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12/junit-4.13.2.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.easymock/easymock/5.1.0/b699beae4f519f06c587674b62dcfe5fb437f1c/easymock-5.1.0.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.13.10/67c1afabaea9ba51321159e70a78515647e1b73d/scala-library-2.13.10.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.clojure/spec.alpha/0.3.218/a7dad492f8d6cf657d82dcd6b31bda0899f1ac0e/spec.alpha-0.3.218.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.clojure/core.specs.alpha/0.2.62/a2a7ea21a695561924bc8506f3feb5d8c8f894d5/core.specs.alpha-0.2.62.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.12.0/c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e/commons-lang3-3.12.0.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.12.0/d5692f0526415fcc6de94bb5bfbd3afd9dd3b3e5/checker-qual-3.12.0.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.11.0/c5a0ace696d3f8b1c1d8cc036d8c03cc0cbe6b69/error_prone_annotations-2.11.0.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.3/ba035118bc8bac37d7eff77700720999acd9986d/j2objc-annotations-1.3.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.2.0/28c11eb91f9b6d8e200631d46e20a7f407f2a046/opentest4j-1.2.0.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.1.2/a231e0d844d2721b0fa1b238006d15c6ded6842a/apiguardian-api-1.1.2.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/3.3/1049c09f1de4331e8193e579448d0916d75b7631/objenesis-3.3.jar",
+            "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-compatible/3.2.15/f41fd4f711038336457875fff4197f9dbfe57a05/scalatest-compatible-3.2.15.jar"
+        ],
+        "out": "/Users/marcel/projects/mixed/.bloop/app-test/build",
+        "classesDir": "/Users/marcel/projects/mixed/.bloop/app-test/build/classes",
+        "resources": [
+            "/Users/marcel/projects/mixed/app/src/test/resources"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "3.2.2",
+            "options": [
+                "-deprecation",
+                "-unchecked"
+            ],
+            "jars": [
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scala-lang/scaladoc_3/3.2.2/27c9c4f5194a67a03cd19ff9945dc916ea98b412/scaladoc_3-3.2.2.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala3-tasty-inspector_3/3.2.2/a123d7347000040257247de3c22fe2f3ff69c12e/scala3-tasty-inspector_3-3.2.2.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala3-compiler_3/3.2.2/b6ccd8d08cf327a3c7a7a38dbecdc46d4895b823/scala3-compiler_3-3.2.2.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala3-sbt-bridge/3.2.2/115c1841e5226b909b8945d03b17b327e95ea77c/scala3-sbt-bridge-3.2.2.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala3-interfaces/3.2.2/3e7a02ddd73ab9927a66b418ccdaa37df8e9b843/scala3-interfaces-3.2.2.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scala-lang/tasty-core_3/3.2.2/808c8ce3f296c2d6cd5a7cdbeeff4e3af467913a/tasty-core_3-3.2.2.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala3-library_3/3.2.2/66cd4d151f70d4545b358d25b5a8377e68a4ded5/scala3-library_3-3.2.2.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-asm/9.3.0-scala-1/de91f21b830b1d890340e32d51e83c7bf445e2ed/scala-asm-9.3.0-scala-1.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scala-sbt/compiler-interface/1.3.5/1f7379ff56b1795b523838cd06ff24272104c380/compiler-interface-1.3.5.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.jline/jline-reader/3.19.0/645d72953711ee4e61705bc5e576fdd1f22c087/jline-reader-3.19.0.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.jline/jline-terminal-jna/3.19.0/c9f9071612424157ca3d5a774a42f2c9b44c10ef/jline-terminal-jna-3.19.0.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.jline/jline-terminal/3.19.0/d4a75a8be7490c8529c029d6baa59e838f45f22e/jline-terminal-3.19.0.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-html-parser/0.42.12/b38f21a54c0ff7382bceb0f9eb8e75ec577692de/flexmark-html-parser-0.42.12.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-anchorlink/0.42.12/afe70dca51a56e11223fef50e2cc341575d61553/flexmark-ext-anchorlink-0.42.12.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-autolink/0.42.12/2ab3a1f43ab2085dc91d43215911979277f6f59b/flexmark-ext-autolink-0.42.12.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-emoji/0.42.12/f0af5fc53c79f63e03c2d49f79550ee486999bb3/flexmark-ext-emoji-0.42.12.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-jira-converter/0.42.12/5d5ded184937a872bf0be65418785be55ba52df5/flexmark-jira-converter-0.42.12.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-gfm-strikethrough/0.42.12/7d74e9e5f0af7cd3450d8c5cc6a0091ca4e3889e/flexmark-ext-gfm-strikethrough-0.42.12.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-gfm-tables/0.42.12/f5240d6c0cf545c043c4ff85d9901b16d63b2e5f/flexmark-ext-gfm-tables-0.42.12.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-gfm-tasklist/0.42.12/bdc5f0b4eaeb518433105c7be7da0c36e8bc7ad1/flexmark-ext-gfm-tasklist-0.42.12.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-wikilink/0.42.12/4925281a6b0ecd85abf1ec69b24a66ab7fe8fc13/flexmark-ext-wikilink-0.42.12.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-yaml-front-matter/0.42.12/1d1dc4fc06640b822f5d494fedc50f9084bcb4cb/flexmark-ext-yaml-front-matter-0.42.12.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-tables/0.42.12/1c7b0753b89929839e174623b572a5fe5a5d4f4b/flexmark-ext-tables-0.42.12.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-ins/0.42.12/757ece03a334461467eecc53a5a444e8229e4ae6/flexmark-ext-ins-0.42.12.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-superscript/0.42.12/931585a8a1b984c7a9c516c133503231178fcd0d/flexmark-ext-superscript-0.42.12.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-formatter/0.42.12/4e59a7db95b222ea7b3d9232538225e13fd49361/flexmark-formatter-0.42.12.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark/0.42.12/154f847d06d0b153d670a9a9bd78d0d573b24af3/flexmark-0.42.12.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/nl.big-o/liqp/0.8.2/ceba9a3456962a22ef0a837af9e4d48b62b63f93/liqp-0.8.2.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.14.3/c43a81e18e6d0eb71951aa031d55d5c293c531a6/jsoup-1.14.3.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.13.3/ad2f4c61aeb9e2a8bb5e4a3ed782cfddec52d972/jackson-datatype-jsr310-2.13.3.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.13.3/56deb9ea2c93a7a556b3afbedd616d342963464e/jackson-databind-2.13.3.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.13.3/a27014716e4421684416e5fa83d896ddb87002da/jackson-core-2.13.3.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.13.3/7198b3aac15285a49e218e08441c5f70af00fc51/jackson-annotations-2.13.3.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.13.3/9363ded5441b1fee62d5be0604035690ca759a2a/jackson-dataformat-yaml-2.13.3.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.13.10/67c1afabaea9ba51321159e70a78515647e1b73d/scala-library-2.13.10.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.7.0/dbb5e9230a91f2a6d011096c2b9c10a5a6e5f7f2/protobuf-java-3.7.0.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scala-sbt/util-interface/1.3.0/edc7556e112da142bf7e9ead1440d024fd3314c4/util-interface-1.3.0.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/5.3.1/6eb9d07456c56b9c2560722e90382252f0f98405/jna-5.3.1.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util/0.42.12/d138401b9ab2a32f15f48705257bef18baeab5d5/flexmark-util-0.42.12.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.nibor.autolink/autolink/0.6.0/3986d016a14e8c81afeec752f19af29b20e8367b/autolink-0.6.0.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4-runtime/4.7.2/e27d8ab4f984f9d186f54da984a6ab1cccac755e/antlr4-runtime-4.7.2.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/ua.co.k/strftime4j/1.0.5/726bbb2dd522a43c1fd3fb0568693bb5cbdcddf/strftime4j-1.0.5.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.30/8fde7fe2586328ac3c68db92045e1c8759125000/snakeyaml-1.30.jar"
+            ],
+            "setup": {
+                "order": "java->scala",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                "-source",
+                "17",
+                "-target",
+                "17",
+                "-h",
+                "/Users/marcel/projects/mixed/app/build/generated/sources/headers/java/test",
+                "-g",
+                "-sourcepath",
+                "",
+                "-proc:none",
+                "-XDuseUnsharedTable=true"
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework",
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "utest.runner.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    {
+                        "args": [
+                            "-v",
+                            "-a"
+                        ],
+                        "framework": {
+                            "names": [
+                                "com.novocode.junit.JUnitFramework"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/Users/marcel/.sdkman/candidates/java/17.0.7-tem",
+                "options": [
+                    
+                ]
+            },
+            "mainClass": [
+                
+            ],
+            "classpath": [
+                "/Users/marcel/projects/mixed/.bloop/app/build/classes",
+                "/Users/marcel/projects/mixed/app/src/main/resources",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest_3/3.2.15/dfaadda82c4c862bf164bd114803fd163cf3b73e/scalatest_3-3.2.15.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatestplus/junit-4-13_3/3.2.15.0/5d0f8a741bdf2e8c6974cc3d139311e8d6c9f838/junit-4-13_3-3.2.15.0.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatestplus/easymock-5-1_3/3.2.15.0/55a914672c969c69f753e814cb8d57318b58d9cf/easymock-5-1_3-3.2.15.0.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-featurespec_3/3.2.15/4bc75e68e2868b4c479b560f5f378cb48ab75b76/scalatest-featurespec_3-3.2.15.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-flatspec_3/3.2.15/7b55612375f7510baa3dc4ae6299bed1ed3a7ece/scalatest-flatspec_3-3.2.15.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-freespec_3/3.2.15/c39544f2bdef51499536da16d26bf4c25b241f1e/scalatest-freespec_3-3.2.15.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-funsuite_3/3.2.15/83bdcb74a218416eb5b62199b89c70ca08284cd6/scalatest-funsuite_3-3.2.15.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-funspec_3/3.2.15/a1bca099b89bbff1b5c7a7c07abd1a1ed336d742/scalatest-funspec_3-3.2.15.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-propspec_3/3.2.15/4c1ee6a8e2ac5c6ac483df4620163d446b555ecf/scalatest-propspec_3-3.2.15.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-refspec_3/3.2.15/581f787e923c164b9e033fa2ae0d5bde635521f2/scalatest-refspec_3-3.2.15.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-wordspec_3/3.2.15/26cf2ae5b9b406653bfbeccfd01d70269b14db67/scalatest-wordspec_3-3.2.15.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-diagrams_3/3.2.15/ef1062b97650d509681c797aff81689cd97f9f0c/scalatest-diagrams_3-3.2.15.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-shouldmatchers_3/3.2.15/3e4bff4732b017d05586eafb7845f85f064200b7/scalatest-shouldmatchers_3-3.2.15.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-mustmatchers_3/3.2.15/1dfa3d2b50bc3cff3399eaa080210f0115d7d480/scalatest-mustmatchers_3-3.2.15.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-matchers-core_3/3.2.15/b7026d85d9250a696eb8cbac240a5b4b31a6931c/scalatest-matchers-core_3-3.2.15.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-core_3/3.2.15/f41b6ebe4e91c5b3f2706b85bb1fe3af6e1dcba8/scalatest-core_3-3.2.15.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_3/2.1.0/8825dfc740fdf5b0b3900ee7b62cdbfea3483b8/scala-xml_3-2.1.0.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalactic/scalactic_3/3.2.15/fc1037a5bc0d50329134cc52212eb651fa7e6bac/scalactic_3-3.2.15.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala3-library_3/3.2.2/66cd4d151f70d4545b358d25b5a8377e68a4ded5/scala3-library_3-3.2.2.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.2/8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5/commons-collections-3.2.2.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/dev.clojurephant/jovial/0.4.1/3f28984fc2faf69f4f216b94713c2ac5036043cf/jovial-0.4.1.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.ajoberstar/jovial/0.3.0/359305678bbfc577da49cbf56754c423398d0063/jovial-0.3.0.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.clojure/tools.namespace/1.3.0/750e378b4cf9eb1af1fbe9ea40deb0e2c8c5049c/tools.namespace-1.3.0.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.clojure/java.classpath/1.0.0/15d06d1b304ac23104333bc8492a11bcc2e87e4/java.classpath-1.0.0.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.clojure/tools.reader/1.3.6/927809dcb44fa726e4969d993e3e733636d95ebb/tools.reader-1.3.6.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.clojure/clojure/1.12.0-alpha1/1f82519802826aea63391eb54b7d2865dfaa0046/clojure-1.12.0-alpha1.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/us.bpsm/edn-java/0.7.1/cfb5d793683fa97a1bdccb6e5d8c5b7a4495fa2a/edn-java-0.7.1.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-text/1.10.0/3363381aef8cef2dbc1023b3e3a9433b08b64e01/commons-text-1.10.0.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/31.1-jre/60458f877d055d0c9114d9e1a2efb737b4bc282c/guava-31.1-jre.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.9.0/bd46891f01817b5ffdd368cb0482a34746610acb/junit-platform-engine-1.9.0.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.9.0/b727889107fc28c7460b21d1083212f8ce7602c6/junit-platform-commons-1.9.0.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.9.0/a44f7eba3ea214f6ec87ad9fccd3b2ac4681a4/junit-jupiter-api-5.9.0.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/junit/junit/4.13.2/8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12/junit-4.13.2.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.easymock/easymock/5.1.0/b699beae4f519f06c587674b62dcfe5fb437f1c/easymock-5.1.0.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.13.10/67c1afabaea9ba51321159e70a78515647e1b73d/scala-library-2.13.10.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.clojure/spec.alpha/0.3.218/a7dad492f8d6cf657d82dcd6b31bda0899f1ac0e/spec.alpha-0.3.218.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.clojure/core.specs.alpha/0.2.62/a2a7ea21a695561924bc8506f3feb5d8c8f894d5/core.specs.alpha-0.2.62.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.12.0/c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e/commons-lang3-3.12.0.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.12.0/d5692f0526415fcc6de94bb5bfbd3afd9dd3b3e5/checker-qual-3.12.0.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.11.0/c5a0ace696d3f8b1c1d8cc036d8c03cc0cbe6b69/error_prone_annotations-2.11.0.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.3/ba035118bc8bac37d7eff77700720999acd9986d/j2objc-annotations-1.3.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.2.0/28c11eb91f9b6d8e200631d46e20a7f407f2a046/opentest4j-1.2.0.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/3.3/1049c09f1de4331e8193e579448d0916d75b7631/objenesis-3.3.jar",
+                "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-compatible/3.2.15/f41fd4f711038336457875fff4197f9dbfe57a05/scalatest-compatible-3.2.15.jar"
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-shouldmatchers_3",
+                    "version": "3.2.15",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-shouldmatchers_3",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-shouldmatchers_3/3.2.15/3e4bff4732b017d05586eafb7845f85f064200b7/scalatest-shouldmatchers_3-3.2.15.jar"
+                        },
+                        {
+                            "name": "scalatest-shouldmatchers_3",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-shouldmatchers_3/3.2.15/263e27732ab631b2b40a77b11ce240b70502151a/scalatest-shouldmatchers_3-3.2.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-compatible",
+                    "version": "3.2.15",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-compatible",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-compatible/3.2.15/f41fd4f711038336457875fff4197f9dbfe57a05/scalatest-compatible-3.2.15.jar"
+                        },
+                        {
+                            "name": "scalatest-compatible",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-compatible/3.2.15/49d822449cd7ca53ae7f091ce9727a7a8770b5af/scalatest-compatible-3.2.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-flatspec_3",
+                    "version": "3.2.15",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-flatspec_3",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-flatspec_3/3.2.15/7b55612375f7510baa3dc4ae6299bed1ed3a7ece/scalatest-flatspec_3-3.2.15.jar"
+                        },
+                        {
+                            "name": "scalatest-flatspec_3",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-flatspec_3/3.2.15/1fb348614cbd47788daa69250b3a0dc4fe07809/scalatest-flatspec_3-3.2.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.objenesis",
+                    "name": "objenesis",
+                    "version": "3.3",
+                    "artifacts": [
+                        {
+                            "name": "objenesis",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/3.3/5fef34eeee6816b0ba2170755a8a9db7744990c3/objenesis-3.3-sources.jar"
+                        },
+                        {
+                            "name": "objenesis",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/3.3/1049c09f1de4331e8193e579448d0916d75b7631/objenesis-3.3.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-refspec_3",
+                    "version": "3.2.15",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-refspec_3",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-refspec_3/3.2.15/e94d17d6a3efb2afb761b3f7f46bbab9d4f76e78/scalatest-refspec_3-3.2.15-sources.jar"
+                        },
+                        {
+                            "name": "scalatest-refspec_3",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-refspec_3/3.2.15/581f787e923c164b9e033fa2ae0d5bde635521f2/scalatest-refspec_3-3.2.15.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "nrepl",
+                    "name": "nrepl",
+                    "version": "0.9.0",
+                    "artifacts": [
+                        {
+                            "name": "nrepl",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/nrepl/nrepl/0.9.0/49beada131959f08f9a20899affbd1b10c03a668/nrepl-0.9.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.opentest4j",
+                    "name": "opentest4j",
+                    "version": "1.2.0",
+                    "artifacts": [
+                        {
+                            "name": "opentest4j",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.2.0/41d55b3c2254de9837b4ec8923cbd371b8a7eab5/opentest4j-1.2.0-sources.jar"
+                        },
+                        {
+                            "name": "opentest4j",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.2.0/28c11eb91f9b6d8e200631d46e20a7f407f2a046/opentest4j-1.2.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.ajoberstar",
+                    "name": "jovial",
+                    "version": "0.3.0",
+                    "artifacts": [
+                        {
+                            "name": "jovial",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.ajoberstar/jovial/0.3.0/c04948d345eae96410f8f25ab07a8ae4ce3d3468/jovial-0.3.0-sources.jar"
+                        },
+                        {
+                            "name": "jovial",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.ajoberstar/jovial/0.3.0/359305678bbfc577da49cbf56754c423398d0063/jovial-0.3.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.hamcrest",
+                    "name": "hamcrest-core",
+                    "version": "1.3",
+                    "artifacts": [
+                        {
+                            "name": "hamcrest-core",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar"
+                        },
+                        {
+                            "name": "hamcrest-core",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-freespec_3",
+                    "version": "3.2.15",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-freespec_3",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-freespec_3/3.2.15/e8e0b466c067601c1a9c9388c15b282c51399631/scalatest-freespec_3-3.2.15-sources.jar"
+                        },
+                        {
+                            "name": "scalatest-freespec_3",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-freespec_3/3.2.15/c39544f2bdef51499536da16d26bf4c25b241f1e/scalatest-freespec_3-3.2.15.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.errorprone",
+                    "name": "error_prone_annotations",
+                    "version": "2.11.0",
+                    "artifacts": [
+                        {
+                            "name": "error_prone_annotations",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.11.0/d060e42b6aa896a3abe2ec612e1cf8cc307f8a49/error_prone_annotations-2.11.0-sources.jar"
+                        },
+                        {
+                            "name": "error_prone_annotations",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.11.0/c5a0ace696d3f8b1c1d8cc036d8c03cc0cbe6b69/error_prone_annotations-2.11.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.clojure",
+                    "name": "clojure",
+                    "version": "1.12.0-alpha1",
+                    "artifacts": [
+                        {
+                            "name": "clojure",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.clojure/clojure/1.12.0-alpha1/1f82519802826aea63391eb54b7d2865dfaa0046/clojure-1.12.0-alpha1.jar"
+                        },
+                        {
+                            "name": "clojure",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.clojure/clojure/1.12.0-alpha1/df7dcebc879a0a74541e3c11af7af9d1f488cbac/clojure-1.12.0-alpha1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-featurespec_3",
+                    "version": "3.2.15",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-featurespec_3",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-featurespec_3/3.2.15/f8b7e1c46808861117f78c9758c7126b974a032a/scalatest-featurespec_3-3.2.15-sources.jar"
+                        },
+                        {
+                            "name": "scalatest-featurespec_3",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-featurespec_3/3.2.15/4bc75e68e2868b4c479b560f5f378cb48ab75b76/scalatest-featurespec_3-3.2.15.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.clojure",
+                    "name": "tools.namespace",
+                    "version": "1.3.0",
+                    "artifacts": [
+                        {
+                            "name": "tools.namespace",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.clojure/tools.namespace/1.3.0/b02dd01e1135c866618cc093242ee63ef7a6a600/tools.namespace-1.3.0-sources.jar"
+                        },
+                        {
+                            "name": "tools.namespace",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.clojure/tools.namespace/1.3.0/750e378b4cf9eb1af1fbe9ea40deb0e2c8c5049c/tools.namespace-1.3.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.10",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.13.10/67c1afabaea9ba51321159e70a78515647e1b73d/scala-library-2.13.10.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.13.10/68e791105b904f26ee2eaa8c17e740c8076e36eb/scala-library-2.13.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-text",
+                    "version": "1.10.0",
+                    "artifacts": [
+                        {
+                            "name": "commons-text",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-text/1.10.0/3363381aef8cef2dbc1023b3e3a9433b08b64e01/commons-text-1.10.0.jar"
+                        },
+                        {
+                            "name": "commons-text",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-text/1.10.0/99ad76c831fcf0edead47f3aa9c0731653a0845d/commons-text-1.10.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.j2objc",
+                    "name": "j2objc-annotations",
+                    "version": "1.3",
+                    "artifacts": [
+                        {
+                            "name": "j2objc-annotations",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.3/ba035118bc8bac37d7eff77700720999acd9986d/j2objc-annotations-1.3.jar"
+                        },
+                        {
+                            "name": "j2objc-annotations",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.3/d26c56180205cbb50447c3eca98ecb617cf9f58b/j2objc-annotations-1.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.jupiter",
+                    "name": "junit-jupiter-api",
+                    "version": "5.9.0",
+                    "artifacts": [
+                        {
+                            "name": "junit-jupiter-api",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.9.0/e23e68771c361cdc17004c5ec30095d609df980/junit-jupiter-api-5.9.0-sources.jar"
+                        },
+                        {
+                            "name": "junit-jupiter-api",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.9.0/a44f7eba3ea214f6ec87ad9fccd3b2ac4681a4/junit-jupiter-api-5.9.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.clojure",
+                    "name": "java.classpath",
+                    "version": "1.0.0",
+                    "artifacts": [
+                        {
+                            "name": "java.classpath",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.clojure/java.classpath/1.0.0/15d06d1b304ac23104333bc8492a11bcc2e87e4/java.classpath-1.0.0.jar"
+                        },
+                        {
+                            "name": "java.classpath",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.clojure/java.classpath/1.0.0/339a3d04c246f8cda13574e6a39c4ba2d2273ab/java.classpath-1.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.platform",
+                    "name": "junit-platform-engine",
+                    "version": "1.9.0",
+                    "artifacts": [
+                        {
+                            "name": "junit-platform-engine",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.9.0/bd46891f01817b5ffdd368cb0482a34746610acb/junit-platform-engine-1.9.0.jar"
+                        },
+                        {
+                            "name": "junit-platform-engine",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.9.0/bda902e43fe1f62674224452defd31f4c251e29d/junit-platform-engine-1.9.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-wordspec_3",
+                    "version": "3.2.15",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-wordspec_3",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-wordspec_3/3.2.15/facceabba895db942b7198e003c0e3fb05a6a543/scalatest-wordspec_3-3.2.15-sources.jar"
+                        },
+                        {
+                            "name": "scalatest-wordspec_3",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-wordspec_3/3.2.15/26cf2ae5b9b406653bfbeccfd01d70269b14db67/scalatest-wordspec_3-3.2.15.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.checkerframework",
+                    "name": "checker-qual",
+                    "version": "3.12.0",
+                    "artifacts": [
+                        {
+                            "name": "checker-qual",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.12.0/d5692f0526415fcc6de94bb5bfbd3afd9dd3b3e5/checker-qual-3.12.0.jar"
+                        },
+                        {
+                            "name": "checker-qual",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.12.0/10dacb8b36398debceca36cd0db5f3316967f80e/checker-qual-3.12.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.guava",
+                    "name": "guava",
+                    "version": "31.1-jre",
+                    "artifacts": [
+                        {
+                            "name": "guava",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/31.1-jre/c388a68bc2b17a314dfa7c769d858ada0fc32dcf/guava-31.1-jre-sources.jar"
+                        },
+                        {
+                            "name": "guava",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/31.1-jre/60458f877d055d0c9114d9e1a2efb737b4bc282c/guava-31.1-jre.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.easymock",
+                    "name": "easymock",
+                    "version": "5.1.0",
+                    "artifacts": [
+                        {
+                            "name": "easymock",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.easymock/easymock/5.1.0/4dfa49177a60000dc1c00f6fcc7c71ee63c5ab2/easymock-5.1.0-sources.jar"
+                        },
+                        {
+                            "name": "easymock",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.easymock/easymock/5.1.0/b699beae4f519f06c587674b62dcfe5fb437f1c/easymock-5.1.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-lang3",
+                    "version": "3.12.0",
+                    "artifacts": [
+                        {
+                            "name": "commons-lang3",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.12.0/c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e/commons-lang3-3.12.0.jar"
+                        },
+                        {
+                            "name": "commons-lang3",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.12.0/198b882fdc2c72c89c63401d946f6ba46c3acea3/commons-lang3-3.12.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.clojurephant",
+                    "name": "jovial",
+                    "version": "0.4.1",
+                    "artifacts": [
+                        {
+                            "name": "jovial",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/dev.clojurephant/jovial/0.4.1/3f28984fc2faf69f4f216b94713c2ac5036043cf/jovial-0.4.1.jar"
+                        },
+                        {
+                            "name": "jovial",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/dev.clojurephant/jovial/0.4.1/ed80b8ad6d2372d6dd02d8438da4e1d4f76de9d1/jovial-0.4.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalactic",
+                    "name": "scalactic_3",
+                    "version": "3.2.15",
+                    "artifacts": [
+                        {
+                            "name": "scalactic_3",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalactic/scalactic_3/3.2.15/fc1037a5bc0d50329134cc52212eb651fa7e6bac/scalactic_3-3.2.15.jar"
+                        },
+                        {
+                            "name": "scalactic_3",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalactic/scalactic_3/3.2.15/872a9fe8e237d8eeb443cd79028cc89661a21fe2/scalactic_3-3.2.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatestplus",
+                    "name": "easymock-5-1_3",
+                    "version": "3.2.15.0",
+                    "artifacts": [
+                        {
+                            "name": "easymock-5-1_3",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatestplus/easymock-5-1_3/3.2.15.0/55a914672c969c69f753e814cb8d57318b58d9cf/easymock-5-1_3-3.2.15.0.jar"
+                        },
+                        {
+                            "name": "easymock-5-1_3",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatestplus/easymock-5-1_3/3.2.15.0/3da39e49955fec2d4a3fa817427056fdfe66c98c/easymock-5-1_3-3.2.15.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-matchers-core_3",
+                    "version": "3.2.15",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-matchers-core_3",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-matchers-core_3/3.2.15/98adef6e766f3925166bd9ecab012f60cffb66e3/scalatest-matchers-core_3-3.2.15-sources.jar"
+                        },
+                        {
+                            "name": "scalatest-matchers-core_3",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-matchers-core_3/3.2.15/b7026d85d9250a696eb8cbac240a5b4b31a6931c/scalatest-matchers-core_3-3.2.15.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-collections",
+                    "name": "commons-collections",
+                    "version": "3.2.2",
+                    "artifacts": [
+                        {
+                            "name": "commons-collections",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.2/78c50ebda5784937ca1615fc0e1d0cb35857d572/commons-collections-3.2.2-sources.jar"
+                        },
+                        {
+                            "name": "commons-collections",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.2/8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5/commons-collections-3.2.2.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.guava",
+                    "name": "listenablefuture",
+                    "version": "9999.0-empty-to-avoid-conflict-with-guava",
+                    "artifacts": [
+                        {
+                            "name": "listenablefuture",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala3-library_3",
+                    "version": "3.2.2",
+                    "artifacts": [
+                        {
+                            "name": "scala3-library_3",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala3-library_3/3.2.2/66cd4d151f70d4545b358d25b5a8377e68a4ded5/scala3-library_3-3.2.2.jar"
+                        },
+                        {
+                            "name": "scala3-library_3",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala3-library_3/3.2.2/780af13646469bb3e98d626628a5b87e337bdb0f/scala3-library_3-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "us.bpsm",
+                    "name": "edn-java",
+                    "version": "0.7.1",
+                    "artifacts": [
+                        {
+                            "name": "edn-java",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/us.bpsm/edn-java/0.7.1/e366b6a15c98c85a90cadae73d8fc359f0d6e89c/edn-java-0.7.1-sources.jar"
+                        },
+                        {
+                            "name": "edn-java",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/us.bpsm/edn-java/0.7.1/cfb5d793683fa97a1bdccb6e5d8c5b7a4495fa2a/edn-java-0.7.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-propspec_3",
+                    "version": "3.2.15",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-propspec_3",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-propspec_3/3.2.15/4c1ee6a8e2ac5c6ac483df4620163d446b555ecf/scalatest-propspec_3-3.2.15.jar"
+                        },
+                        {
+                            "name": "scalatest-propspec_3",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-propspec_3/3.2.15/40bb822516033e28b8ecd05b7f722ff8585c5ee4/scalatest-propspec_3-3.2.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.clojure",
+                    "name": "tools.reader",
+                    "version": "1.3.6",
+                    "artifacts": [
+                        {
+                            "name": "tools.reader",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.clojure/tools.reader/1.3.6/11289a03e079ec281435cb79980af412a75f8ffb/tools.reader-1.3.6-sources.jar"
+                        },
+                        {
+                            "name": "tools.reader",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.clojure/tools.reader/1.3.6/927809dcb44fa726e4969d993e3e733636d95ebb/tools.reader-1.3.6.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.clojure",
+                    "name": "clojure",
+                    "version": "1.11.1",
+                    "artifacts": [
+                        {
+                            "name": "clojure",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.clojure/clojure/1.11.1/2896bc72c90da8125026c0e61df0470a084f9ec3/clojure-1.11.1.jar"
+                        },
+                        {
+                            "name": "clojure",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.clojure/clojure/1.11.1/8d1b729da6e0d9a34c1c50838453d50c3b3cb6d5/clojure-1.11.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "junit",
+                    "name": "junit",
+                    "version": "4.13.2",
+                    "artifacts": [
+                        {
+                            "name": "junit",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/junit/junit/4.13.2/33987872a811fe4d4001ed494b07854822257f42/junit-4.13.2-sources.jar"
+                        },
+                        {
+                            "name": "junit",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/junit/junit/4.13.2/8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12/junit-4.13.2.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.guava",
+                    "name": "failureaccess",
+                    "version": "1.0.1",
+                    "artifacts": [
+                        {
+                            "name": "failureaccess",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1d064e61aad6c51cc77f9b59dc2cccc78e792f5a/failureaccess-1.0.1-sources.jar"
+                        },
+                        {
+                            "name": "failureaccess",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.clojure",
+                    "name": "core.specs.alpha",
+                    "version": "0.2.62",
+                    "artifacts": [
+                        {
+                            "name": "core.specs.alpha",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.clojure/core.specs.alpha/0.2.62/55dc31be85ab93c43b001a9eea99bcd98c411546/core.specs.alpha-0.2.62-sources.jar"
+                        },
+                        {
+                            "name": "core.specs.alpha",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.clojure/core.specs.alpha/0.2.62/a2a7ea21a695561924bc8506f3feb5d8c8f894d5/core.specs.alpha-0.2.62.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatestplus",
+                    "name": "junit-4-13_3",
+                    "version": "3.2.15.0",
+                    "artifacts": [
+                        {
+                            "name": "junit-4-13_3",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatestplus/junit-4-13_3/3.2.15.0/b4cb0d8c3733fdf8697b352f8623d5585887841e/junit-4-13_3-3.2.15.0-sources.jar"
+                        },
+                        {
+                            "name": "junit-4-13_3",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatestplus/junit-4-13_3/3.2.15.0/5d0f8a741bdf2e8c6974cc3d139311e8d6c9f838/junit-4-13_3-3.2.15.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apiguardian",
+                    "name": "apiguardian-api",
+                    "version": "1.1.2",
+                    "artifacts": [
+                        {
+                            "name": "apiguardian-api",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.1.2/a231e0d844d2721b0fa1b238006d15c6ded6842a/apiguardian-api-1.1.2.jar"
+                        },
+                        {
+                            "name": "apiguardian-api",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.1.2/e0787a997746ac32639e0bf3cb27af8dce8a3428/apiguardian-api-1.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-diagrams_3",
+                    "version": "3.2.15",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-diagrams_3",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-diagrams_3/3.2.15/fe394d5d18c6697869df2195a38257ee443b22e4/scalatest-diagrams_3-3.2.15-sources.jar"
+                        },
+                        {
+                            "name": "scalatest-diagrams_3",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-diagrams_3/3.2.15/ef1062b97650d509681c797aff81689cd97f9f0c/scalatest-diagrams_3-3.2.15.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest_3",
+                    "version": "3.2.15",
+                    "artifacts": [
+                        {
+                            "name": "scalatest_3",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest_3/3.2.15/dfaadda82c4c862bf164bd114803fd163cf3b73e/scalatest_3-3.2.15.jar"
+                        },
+                        {
+                            "name": "scalatest_3",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest_3/3.2.15/1dac61f608dc1b71665e85e35c47b3d464cbd058/scalatest_3-3.2.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.clojure",
+                    "name": "spec.alpha",
+                    "version": "0.3.218",
+                    "artifacts": [
+                        {
+                            "name": "spec.alpha",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.clojure/spec.alpha/0.3.218/87f1eb8cc3d05f14d9b2f262e9c29363b21e363f/spec.alpha-0.3.218-sources.jar"
+                        },
+                        {
+                            "name": "spec.alpha",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.clojure/spec.alpha/0.3.218/a7dad492f8d6cf657d82dcd6b31bda0899f1ac0e/spec.alpha-0.3.218.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-mustmatchers_3",
+                    "version": "3.2.15",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-mustmatchers_3",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-mustmatchers_3/3.2.15/1dfa3d2b50bc3cff3399eaa080210f0115d7d480/scalatest-mustmatchers_3-3.2.15.jar"
+                        },
+                        {
+                            "name": "scalatest-mustmatchers_3",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-mustmatchers_3/3.2.15/b4410fc76efc4442f4d41fc9b89346cb23defda7/scalatest-mustmatchers_3-3.2.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.platform",
+                    "name": "junit-platform-commons",
+                    "version": "1.9.0",
+                    "artifacts": [
+                        {
+                            "name": "junit-platform-commons",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.9.0/18dd59a6622942632cfc7a38c2feae4a3066fc7c/junit-platform-commons-1.9.0-sources.jar"
+                        },
+                        {
+                            "name": "junit-platform-commons",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.9.0/b727889107fc28c7460b21d1083212f8ce7602c6/junit-platform-commons-1.9.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-core_3",
+                    "version": "3.2.15",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-core_3",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-core_3/3.2.15/5bf23c163adc98dc3ac90ca40a66f4f1f19e4630/scalatest-core_3-3.2.15-sources.jar"
+                        },
+                        {
+                            "name": "scalatest-core_3",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-core_3/3.2.15/f41b6ebe4e91c5b3f2706b85bb1fe3af6e1dcba8/scalatest-core_3-3.2.15.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-funspec_3",
+                    "version": "3.2.15",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-funspec_3",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-funspec_3/3.2.15/31b06d2dd9b36d5fbda0ff332bc0331e8b61193d/scalatest-funspec_3-3.2.15-sources.jar"
+                        },
+                        {
+                            "name": "scalatest-funspec_3",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-funspec_3/3.2.15/a1bca099b89bbff1b5c7a7c07abd1a1ed336d742/scalatest-funspec_3-3.2.15.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.code.findbugs",
+                    "name": "jsr305",
+                    "version": "3.0.2",
+                    "artifacts": [
+                        {
+                            "name": "jsr305",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/b19b5927c2c25b6c70f093767041e641ae0b1b35/jsr305-3.0.2-sources.jar"
+                        },
+                        {
+                            "name": "jsr305",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.clojure",
+                    "name": "tools.namespace",
+                    "version": "1.4.4",
+                    "artifacts": [
+                        {
+                            "name": "tools.namespace",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.clojure/tools.namespace/1.4.4/bbb8a37e8e4a7a1b4afad6ed47695c5ae8b2ca02/tools.namespace-1.4.4-sources.jar"
+                        },
+                        {
+                            "name": "tools.namespace",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.clojure/tools.namespace/1.4.4/ba1078e3fe6ebc33119a7c09722afa9f708aef1f/tools.namespace-1.4.4.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-funsuite_3",
+                    "version": "3.2.15",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-funsuite_3",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-funsuite_3/3.2.15/4ebad8affbd708374b6595a57853568bfe665739/scalatest-funsuite_3-3.2.15-sources.jar"
+                        },
+                        {
+                            "name": "scalatest-funsuite_3",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-funsuite_3/3.2.15/83bdcb74a218416eb5b62199b89c70ca08284cd6/scalatest-funsuite_3-3.2.15.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-xml_3",
+                    "version": "2.1.0",
+                    "artifacts": [
+                        {
+                            "name": "scala-xml_3",
+                            "classifier": "sources",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_3/2.1.0/fd264db1c7415552a8d2cb28ec65bcc922fc298/scala-xml_3-2.1.0-sources.jar"
+                        },
+                        {
+                            "name": "scala-xml_3",
+                            "path": "/Users/marcel/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_3/2.1.0/8825dfc740fdf5b0b3900ee7b62cdbfea3483b8/scala-xml_3-2.1.0.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}

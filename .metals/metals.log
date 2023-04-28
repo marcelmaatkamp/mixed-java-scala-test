@@ -211,3 +211,67 @@ i
 2023.04.28 09:21:55 INFO  Shutting down server[0m
 2023.04.28 09:21:55 INFO  shutting down Metals[0m
 2023.04.28 09:21:57 INFO  Exiting server[0m
+2023.04.28 16:08:14 INFO  Started: Metals version 0.11.12 in workspace '/Users/marcel/projects/mixed' for client Visual Studio Code 1.77.3.
+apr. 28, 2023 4:08:14 P.M. org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+apr. 28, 2023 4:08:14 P.M. org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+apr. 28, 2023 4:08:14 P.M. org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+apr. 28, 2023 4:08:15 P.M. org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/marcel/projects/mixed/.metals/metals (H2 2.1)
+apr. 28, 2023 4:08:15 P.M. org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.037s)
+apr. 28, 2023 4:08:15 P.M. org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+apr. 28, 2023 4:08:15 P.M. org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.04.28 16:08:15 INFO  time: initialize in 1.12s
+2023.04.28 16:08:20 WARN  Build server is not auto-connectable.
+2023.04.28 16:08:30 INFO  running '/Users/marcel/projects/mixed/gradlew --console=plain --init-script /var/folders/43/lmtykw_54dq_nv7w2xqkkrdw0000gn/T/metals12264050918810662100/init-script.gradle bloopInstall'
+2023.04.28 16:08:32 INFO  Starting a Gradle Daemon, 1 busy and 1 incompatible Daemons could not be reused, use --status for details
+2023.04.28 16:08:46 INFO  > Task :configureBloopInstall
+2023.04.28 16:08:46 INFO  > Task :bloopInstall
+2023.04.28 16:08:46 INFO  > Task :app:configureBloopInstall
+2023.04.28 16:08:48 INFO  > Task :app:bloopInstall
+2023.04.28 16:08:48 INFO  
+2023.04.28 16:08:48 INFO  Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+2023.04.28 16:08:48 INFO  
+2023.04.28 16:08:48 INFO  You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+2023.04.28 16:08:48 INFO  
+2023.04.28 16:08:48 INFO  See https://docs.gradle.org/7.6.1/userguide/command_line_interface.html#sec:command_line_warnings
+2023.04.28 16:08:48 INFO  
+2023.04.28 16:08:48 INFO  BUILD SUCCESSFUL in 18s
+2023.04.28 16:08:48 INFO  4 actionable tasks: 4 executed
+2023.04.28 16:08:48 INFO  time: ran 'gradle bloopInstall' in 18s
+2023.04.28 16:08:48 INFO  Attempting to connect to the build server...
+2023.04.28 16:08:48 INFO  Setting up current java home /Users/marcel/.sdkman/candidates/java/current in /Users/marcel/.bloop/bloop.json
+2023.04.28 16:08:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/marcel/projects/mixed/.metals/bsp.trace.json or /Users/marcel/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.04.28 16:08:54 INFO  time: Connected to build server in 6.2s
+2023.04.28 16:08:54 INFO  Connected to Build server: Bloop v1.5.6
+2023.04.28 16:08:55 INFO  time: Imported build in 0.17s
+2023.04.28 16:08:55 INFO  Required scalafmt dialect rewrite to 'scala3'. Directories:
+- app/src/main/scala
+- app/src/test/scala
+2023.04.28 16:08:59 INFO  time: indexed workspace in 4.84s
+2023.04.28 16:11:05 INFO  compiling app (1 scala source and 1 java source)
+2023.04.28 16:11:07 WARN  javac exited with exit code 1
+2023.04.28 16:11:07 INFO  time: compiled app in 2.16s
+2023.04.28 16:11:12 INFO  compiling app (1 scala source and 1 java source)
+2023.04.28 16:11:14 WARN  javac exited with exit code 1
+2023.04.28 16:11:14 INFO  time: compiled app in 1.34s
+2023.04.28 16:11:19 INFO  compiling app (1 scala source and 1 java source)
+2023.04.28 16:11:19 WARN  javac exited with exit code 1
+2023.04.28 16:11:19 INFO  time: compiled app in 0.56s
+2023.04.28 16:11:20 INFO  compiling app (1 scala source and 1 java source)
+2023.04.28 16:11:21 WARN  javac exited with exit code 1
+2023.04.28 16:11:21 INFO  time: compiled app in 1.09s
+2023.04.28 16:11:21 INFO  compiling app (1 scala source and 1 java source)
+2023.04.28 16:11:23 WARN  javac exited with exit code 1
+2023.04.28 16:11:23 INFO  time: compiled app in 1.02s
+2023.04.28 16:12:04 INFO  compiling app (1 scala source and 1 java source)
+2023.04.28 16:12:06 WARN  javac exited with exit code 1
+2023.04.28 16:12:06 INFO  time: compiled app in 1.21s
+2023.04.28 16:14:38 INFO  compiling app (1 scala source and 1 java source)
+2023.04.28 16:14:39 WARN  javac exited with exit code 1
+2023.04.28 16:14:39 INFO  time: compiled app in 1.19s

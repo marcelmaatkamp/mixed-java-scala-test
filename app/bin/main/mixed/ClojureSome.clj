@@ -1,4 +1,4 @@
-(ns mixed
+(ns mixed/-main
   (:gen-class))
 
 (defn -main

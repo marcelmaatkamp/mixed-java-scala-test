@@ -7,7 +7,7 @@ public class JavaSome {
     public JavaSome() {
         // ScalaSome scalaSome = new ScalaSome();
         // System.out.println(scalaSome.thing());
-        var scalaSome = new mixed.ScalaSome();
+        var scalaSome = new ScalaSome();
         System.out.println("JavaSome: scalaSome: " + scalaSome.thing());
 
         // App app = new App();

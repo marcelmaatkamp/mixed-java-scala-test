@@ -37,11 +37,6 @@ dependencies {
     // test
     testRuntimeOnly("org.ajoberstar:jovial:0.3.0")
 
-    devImplementation("dev.clojurephant:clojurephant-tooling:0.1.0-beta.1") {
-        capabilities {
-            requireCapability("dev.clojurephant:clojurephant-tooling-figwheel-main")
-        }
-    }
 }
 
 testing {
