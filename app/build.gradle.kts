@@ -1,19 +1,23 @@
+
 plugins {
     scala
     java
     application
-    id("distribution")
-    id("dev.clojurephant.clojure") version("0.8.0-beta.2") // 0.8.0-beta.2
-    id("com.github.johnrengelman.shadow") version ("7.1.2")
-    id("maven-publish")
+
+    id("java")
+    id("dev.clojurephant.clojure") version "0.8.0-beta.2"
+    id("application")
 }
+
+
+
+group = "org.example"
+version = "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
-    maven {
-        name = "clojars"
-        url = uri("https://repo.clojars.org")
-    }
+    mavenLocal()
+    maven(url =  "https://repo.clojars.org/")
 }
 
 dependencies {
@@ -32,6 +36,12 @@ dependencies {
 
     // test
     testRuntimeOnly("org.ajoberstar:jovial:0.3.0")
+
+    devImplementation("dev.clojurephant:clojurephant-tooling:0.1.0-beta.1") {
+        capabilities {
+            requireCapability("dev.clojurephant:clojurephant-tooling-figwheel-main")
+        }
+    }
 }
 
 testing {
@@ -49,6 +59,12 @@ testing {
     }
 }
 
+clojure {
+    builds {
+        // getByName("mixed.ClojureSome")
+    }
+}
+
 java {
     toolchain {
         languageVersion.set(JavaLanguageVersion.of(17))
@@ -58,7 +74,3 @@ java {
 application {
     mainClass.set("mixed.App")
 }
-
-// NOTE: You *must* enable AOT (Ahead-of-Time) compilation in order to use a Clojure class as the main class
-// clojure.aotCompile = true
-// clojure.warnOnReflection = true
