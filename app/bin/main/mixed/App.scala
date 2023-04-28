@@ -24,7 +24,10 @@ object App {
     val javaSome = new JavaSome()
     println("ScalaSome: javaSome: " + javaSome.thing)
 
-    println("Clojure: " + Clojure.`var`("clojure.core", "+").invoke(1,2))
+    println("Clojure: plus: " + Clojure.`var`("clojure.core", "+").invoke(1,2))
+
+    // println("Clojure: " + Clojure.`var`("mixed", "buy-coffee").invoke(1, 2))
+
   }
 
   def greeting(): String = "Hello, world!"
