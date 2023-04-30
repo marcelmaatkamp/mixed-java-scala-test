@@ -309,3 +309,51 @@ INFO: Schema "PUBLIC" is up to date. No migration necessary.
 2023.04.30 10:11:55 INFO  compiling app (1 scala source and 1 java source)
 2023.04.30 10:11:58 WARN  javac exited with exit code 1
 2023.04.30 10:11:58 INFO  time: compiled app in 1.24s
+2023.04.30 11:10:35 INFO  compiling app (1 scala source and 2 java sources)
+2023.04.30 11:10:36 WARN  javac exited with exit code 1
+2023.04.30 11:10:36 INFO  time: compiled app in 1.59s
+2023.04.30 11:10:36 INFO  compiling app (1 scala source and 2 java sources)
+2023.04.30 11:10:38 WARN  javac exited with exit code 1
+2023.04.30 11:10:38 INFO  time: compiled app in 1.52s
+2023.04.30 11:10:38 INFO  compiling app (1 scala source and 2 java sources)
+2023.04.30 11:10:40 WARN  javac exited with exit code 1
+2023.04.30 11:10:40 INFO  time: compiled app in 1.57s
+2023.04.30 11:10:42 INFO  compiling app (1 scala source and 2 java sources)
+2023.04.30 11:10:44 WARN  javac exited with exit code 1
+2023.04.30 11:10:44 INFO  time: compiled app in 1.95s
+2023.04.30 11:11:04 INFO  compiling app (1 scala source and 2 java sources)
+2023.04.30 11:11:06 WARN  javac exited with exit code 1
+2023.04.30 11:11:06 INFO  time: compiled app in 1.29s
+2023.04.30 11:16:45 INFO  compiling app (1 scala source and 2 java sources)
+2023.04.30 11:16:45 WARN  javac exited with exit code 1
+2023.04.30 11:16:45 INFO  time: compiled app in 0.74s
+2023.04.30 11:16:52 INFO  compiling app (1 scala source and 2 java sources)
+2023.04.30 11:16:53 WARN  javac exited with exit code 1
+2023.04.30 11:16:53 INFO  time: compiled app in 1.21s
+2023.04.30 11:17:01 INFO  compiling app (1 scala source and 2 java sources)
+2023.04.30 11:17:03 WARN  javac exited with exit code 1
+2023.04.30 11:17:03 INFO  time: compiled app in 1.13s
+2023.04.30 11:17:17 INFO  compiling app (1 scala source and 2 java sources)
+2023.04.30 11:17:18 WARN  javac exited with exit code 1
+2023.04.30 11:17:18 INFO  time: compiled app in 1.07s
+2023.04.30 11:17:21 INFO  compiling app (1 scala source and 2 java sources)
+2023.04.30 11:17:21 WARN  javac exited with exit code 1
+2023.04.30 11:17:21 INFO  time: compiled app in 0.85s
+2023.04.30 11:17:29 INFO  compiling app (1 scala source and 2 java sources)
+2023.04.30 11:17:30 WARN  javac exited with exit code 1
+2023.04.30 11:17:30 INFO  time: compiled app in 1.08s
+2023.04.30 11:17:36 INFO  compiling app (1 scala source and 2 java sources)
+2023.04.30 11:17:36 WARN  javac exited with exit code 1
+2023.04.30 11:17:36 INFO  time: compiled app in 0.74s
+2023.04.30 11:17:59 INFO  compiling app (1 scala source and 2 java sources)
+2023.04.30 11:18:00 WARN  javac exited with exit code 1
+2023.04.30 11:18:00 INFO  time: compiled app in 1.28s
+2023.04.30 11:18:16 INFO  compiling app (1 scala source and 2 java sources)
+2023.04.30 11:18:17 WARN  javac exited with exit code 1
+2023.04.30 11:18:17 INFO  time: compiled app in 1.52s
+2023.04.30 11:35:41 INFO  compiling app (1 scala source and 2 java sources)
+2023.04.30 11:35:44 WARN  javac exited with exit code 1
+2023.04.30 11:35:44 INFO  time: compiled app in 2.31s
+2023.04.30 11:35:44 INFO  compiling app (1 scala source and 2 java sources)
+2023.04.30 11:35:45 WARN  javac exited with exit code 1
+2023.04.30 11:35:45 INFO  time: compiled app in 1.59s

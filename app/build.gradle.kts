@@ -3,6 +3,7 @@ plugins {
     scala
     java
     application
+    kotlin("multiplatform") version "1.8.21"
 
     id("java")
     id("dev.clojurephant.clojure") version "0.8.0-beta.2"
@@ -54,6 +55,11 @@ testing {
     }
 }
 
+tasks.withType<Wrapper> {
+    gradleVersion = "7.3" // "8.1.1"
+    distributionType = Wrapper.DistributionType.BIN
+}
+
 clojure {
     builds {
         // getByName("mixed.ClojureSome")
@@ -62,10 +68,20 @@ clojure {
 
 java {
     toolchain {
-        languageVersion.set(JavaLanguageVersion.of(17))
+        languageVersion.set(JavaLanguageVersion.of(18))
     }
 }
 
 application {
     mainClass.set("mixed.App")
+}
+
+kotlin {
+    macosX64("native") { // on macOS
+        // linuxX64("native") // on Linux
+        // mingwX64("native") // on Windows
+        binaries {
+            executable()
+        }
+    }
 }
