@@ -275,3 +275,37 @@ INFO: Schema "PUBLIC" is up to date. No migration necessary.
 2023.04.28 16:14:38 INFO  compiling app (1 scala source and 1 java source)
 2023.04.28 16:14:39 WARN  javac exited with exit code 1
 2023.04.28 16:14:39 INFO  time: compiled app in 1.19s
+2023.04.29 02:07:19 INFO  Shutting down server
+2023.04.29 02:07:19 INFO  shutting down Metals
+2023.04.29 02:07:19 INFO  Exiting server
+2023.04.30 10:11:29 INFO  Started: Metals version 0.11.12 in workspace '/Users/marcel/projects/mixed' for client Visual Studio Code 1.77.3.
+apr. 30, 2023 10:11:29 A.M. org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+apr. 30, 2023 10:11:29 A.M. org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+apr. 30, 2023 10:11:29 A.M. org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+apr. 30, 2023 10:11:30 A.M. org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/marcel/projects/mixed/.metals/metals (H2 2.1)
+apr. 30, 2023 10:11:30 A.M. org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.048s)
+apr. 30, 2023 10:11:30 A.M. org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+apr. 30, 2023 10:11:30 A.M. org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.04.30 10:11:31 INFO  time: initialize in 1.36s
+2023.04.30 10:11:36 INFO  Attempting to connect to the build server...
+2023.04.30 10:11:36 INFO  Bloop uses /Users/marcel/.sdkman/candidates/java/current defined at /Users/marcel/.bloop/bloop.json
+2023.04.30 10:11:36 INFO  skipping build import with status 'Installed'
+2023.04.30 10:11:39 INFO  time: code lens generation in 3.18s
+2023.04.30 10:11:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/marcel/projects/mixed/.metals/bsp.trace.json or /Users/marcel/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.04.30 10:11:44 INFO  time: Connected to build server in 8.38s
+2023.04.30 10:11:44 INFO  Connected to Build server: Bloop v1.5.6
+2023.04.30 10:11:44 INFO  time: Imported build in 0.25s
+2023.04.30 10:11:53 INFO  time: indexed workspace in 8.15s
+2023.04.30 10:11:54 INFO  compiling app (1 scala source and 1 java source)
+2023.04.30 10:11:55 WARN  javac exited with exit code 1
+2023.04.30 10:11:55 INFO  time: compiled app in 2.54s
+2023.04.30 10:11:55 INFO  compiling app (1 scala source and 1 java source)
+2023.04.30 10:11:58 WARN  javac exited with exit code 1
+2023.04.30 10:11:58 INFO  time: compiled app in 1.24s
