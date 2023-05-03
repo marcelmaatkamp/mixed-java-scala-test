@@ -1,3 +1,14 @@
+buildscript {
+    repositories {
+        google()
+        mavenLocal()
+        mavenCentral()
+        gradlePluginPortal()
+        maven( url = "https://maven.google.com" )
+        maven( url = "https://repo1.maven.org/maven2" )
+        maven( url = "https://kotlin.bintray.com/kotlinx" )
+    }
+}
 
 plugins {
     scala
@@ -8,27 +19,33 @@ plugins {
     id("java")
     id("dev.clojurephant.clojure") version "0.8.0-beta.2"
     id("application")
+
 }
-
-
 
 group = "org.example"
 version = "1.0-SNAPSHOT"
 
-repositories {
-    mavenCentral()
-    mavenLocal()
-    maven(url =  "https://repo.clojars.org/")
+allprojects {
+    repositories {
+        google()
+        mavenLocal()
+        mavenCentral()
+        maven(url = "https://repo.clojars.org/")
+        maven(url = "https://maven.google.com")
+        maven(url = "https://repo1.maven.org/maven2")
+        maven(url = "https://kotlin.bintray.com/kotlinx")
+    }
 }
 
 dependencies {
     implementation("org.scala-lang:scala3-library_3:3.2.2")
     implementation("commons-collections:commons-collections:3.2.2")
-    implementation("org.clojure:clojure:1.11.1")
-    compileOnly("org.clojure:tools.namespace:1.4.4")
 
-    testRuntimeOnly ("dev.clojurephant:jovial:0.4.1")
-    testImplementation("org.junit.jupiter:junit-jupiter-api:5.9.0")
+    implementation("org.jetbrains.kotlin:kotlin-klib-commonizer-embeddable:1.8.21")
+
+    implementation("org.clojure:clojure:1.11.1")
+    implementation("compojure:compojure:1.7.0")
+    compileOnly("org.clojure:tools.namespace:1.4.4")
 
     // datomic support
     implementation("us.bpsm:edn-java:0.7.1")
@@ -37,7 +54,8 @@ dependencies {
 
     // test
     testRuntimeOnly("org.ajoberstar:jovial:0.3.0")
-
+    testRuntimeOnly ("dev.clojurephant:jovial:0.4.1")
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.9.0")
 }
 
 testing {
@@ -85,3 +103,4 @@ kotlin {
         }
     }
 }
+
