@@ -9,6 +9,11 @@ import scala.language.postfixOps
 
 class ScalaSome {
   var thing = "ScalaSomeThing"
+
+  def javaPureSome(javaPureSome: JavaPureSome): JavaPureSome = {
+    javaPureSome.setThing(javaPureSome.getThing + "Scala");
+    return javaPureSome;
+  }
 }
 
 object App {
@@ -21,7 +26,10 @@ object App {
     val scaleSome = new ScalaSome()
     println("ScalaSome: scaleSome: " + scaleSome.thing)
 
-    val javaSome = new JavaSome()
+    val javaPureSome = new JavaPureSome()
+    println("ScalaSome: javaPureSome: " + javaPureSome.getThing)
+
+    val javaSome = new JavaSome(scaleSome)
     println("ScalaSome: javaSome: " + javaSome.thing)
 
     println("Clojure: plus: " + Clojure.`var`("clojure.core", "+").invoke(1,2))
