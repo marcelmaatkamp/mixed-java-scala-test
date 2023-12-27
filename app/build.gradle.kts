@@ -95,8 +95,8 @@ application {
 }
 
 kotlin {
-    macosX64("native") { // on macOS
-        // linuxX64("native") // on Linux
+    // macosX64("native") { // on macOS
+    linuxX64("native") { // on Linux
         // mingwX64("native") // on Windows
         binaries {
             executable()

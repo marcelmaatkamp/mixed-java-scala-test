@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
+    <option name="incrementalityType" value="IDEA" />
     <profile name="Gradle 2" modules="mixed.app.main,mixed.app.test">
       <option name="deprecationWarnings" value="true" />
       <option name="uncheckedWarnings" value="true" />
