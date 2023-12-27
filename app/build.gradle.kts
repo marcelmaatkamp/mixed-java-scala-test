@@ -14,11 +14,12 @@ plugins {
     scala
     java
     application
-    kotlin("multiplatform") version "1.8.21"
+    kotlin("multiplatform") version "1.9.22"
 
     id("java")
     id("dev.clojurephant.clojure") version "0.8.0-beta.2"
     id("application")
+    kotlin("jvm")
 
 }
 
@@ -41,7 +42,7 @@ dependencies {
     implementation("org.scala-lang:scala3-library_3:3.2.2")
     implementation("commons-collections:commons-collections:3.2.2")
 
-    implementation("org.jetbrains.kotlin:kotlin-klib-commonizer-embeddable:1.8.21")
+   // implementation("org.jetbrains.kotlin:kotlin-klib-commonizer-embeddable:1.9.22")
 
     implementation("org.clojure:clojure:1.11.1")
     implementation("compojure:compojure:1.7.0")
@@ -56,6 +57,7 @@ dependencies {
     testRuntimeOnly("org.ajoberstar:jovial:0.3.0")
     testRuntimeOnly ("dev.clojurephant:jovial:0.4.1")
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.9.0")
+    implementation(kotlin("stdlib-jdk8"))
 }
 
 testing {
@@ -104,3 +106,6 @@ kotlin {
     }
 }
 
+repositories {
+    mavenCentral()
+}

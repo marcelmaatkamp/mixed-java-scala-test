@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ScalaCompilerConfiguration">
     <option name="incrementalityType" value="IDEA" />
-    <profile name="Gradle 2" modules="mixed.app.main,mixed.app.test">
+    <profile name="Gradle 1" modules="mixed.app.main,mixed.app.test">
       <option name="deprecationWarnings" value="true" />
       <option name="uncheckedWarnings" value="true" />
-      <parameters>
-        <parameter value="-target:jvm-18" />
-      </parameters>
     </profile>
   </component>
 </project>
