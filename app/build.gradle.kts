@@ -19,7 +19,7 @@ plugins {
     id("java")
     id("dev.clojurephant.clojure") version "0.8.0-beta.2"
     id("application")
-    kotlin("jvm")
+    // kotlin("jvm")
 
 }
 
