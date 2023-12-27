@@ -7,3 +7,4 @@ megalinter-reports/
 .idea
 .lsp
 .vscode
+/gorilla-repl.log
