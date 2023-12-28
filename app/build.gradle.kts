@@ -14,14 +14,17 @@ plugins {
     scala
     java
     application
+    idea
     kotlin("multiplatform") version "1.9.22"
-
     id("java")
     id("dev.clojurephant.clojure") version "0.8.0-beta.2"
     id("application")
     // kotlin("jvm")
+    // kotlin("jvm")
 
 }
+
+
 
 group = "org.example"
 version = "1.0-SNAPSHOT"
